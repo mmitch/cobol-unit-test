@@ -1347,6 +1347,7 @@
                        MOVE ORIGINAL-LINE TO LINE-TO-PARSE
                    END-IF
                END-IF                               
+               MOVE 7 TO KEYWORD-OFFSET
            END-PERFORM
            SET FILE-IX UP BY 1      
            .
